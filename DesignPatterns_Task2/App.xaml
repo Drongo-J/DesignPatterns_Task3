@@ -1,0 +1,15 @@
+﻿<Application x:Class="DesignPatterns_Task2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DesignPatterns_Task2"
+             StartupUri="/Views/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionaries/TextBoxStyles.xaml" x:Name="TextBoxStyles"/>
+                <ResourceDictionary Source="Dictionaries/ButtonStyles.xaml" x:Name="ButtonStyles"/>
+                <ResourceDictionary Source="Dictionaries/TextBlockStyles.xaml" x:Name="TextBlockStyles"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application> 
